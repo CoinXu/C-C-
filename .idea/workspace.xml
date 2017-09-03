@@ -12,9 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc54de4a-104f-4edc-9ba0-992f3dc57c4e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/queue/_test_.c" afterPath="$PROJECT_DIR$/data_structure/queue/_test_.c" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/queue/queue.c" afterPath="$PROJECT_DIR$/data_structure/queue/queue.c" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/queue/queue.h" afterPath="$PROJECT_DIR$/data_structure/queue/queue.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data_structure/linked-list/linked_list.c" afterPath="$PROJECT_DIR$/data-structure/linked-list/linked_list.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data_structure/linked-list/linked_list.h" afterPath="$PROJECT_DIR$/data-structure/linked-list/linked_list.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data_structure/list/list.c" afterPath="$PROJECT_DIR$/data-structure/list/list.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data_structure/list/list.h" afterPath="$PROJECT_DIR$/data-structure/list/list.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data_structure/queue/_test_.c" afterPath="$PROJECT_DIR$/data-structure/queue/_test_.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data_structure/queue/queue.c" afterPath="$PROJECT_DIR$/data-structure/queue/queue.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data_structure/queue/queue.h" afterPath="$PROJECT_DIR$/data-structure/queue/queue.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/about-c-lang.iml" afterPath="$PROJECT_DIR$/.idea/about-c-lang.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -41,7 +45,7 @@
       <split-first>
         <leaf>
           <file leaf-file-name="list.c" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/data_structure/list/list.c">
+            <entry file="file://$PROJECT_DIR$/data-structure/list/list.c">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
                   <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -60,10 +64,10 @@
             </entry>
           </file>
           <file leaf-file-name="queue.c" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/data_structure/queue/queue.c">
+            <entry file="file://$PROJECT_DIR$/data-structure/queue/queue.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.54603857">
-                  <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+                <state vertical-scroll-proportion="0.5105348">
+                  <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
                   <folding>
                     <element signature="e#41#60#0" expanded="true" />
                     <element signature="e#218#314#0" expanded="false" />
@@ -73,14 +77,13 @@
                     <element signature="e#566#629#0" expanded="false" />
                     <element signature="e#700#1282#0" expanded="false" />
                     <element signature="e#1288#1605#0" expanded="false" />
-                    <element signature="e#1607#1728#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="queue.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/data_structure/queue/queue.h">
+            <entry file="file://$PROJECT_DIR$/data-structure/queue/queue.h">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
                   <caret line="46" column="18" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="18" />
@@ -103,21 +106,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+          <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.27301928">
-                  <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_test_.c" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/data_structure/queue/_test_.c">
+          <file leaf-file-name="_test_.c" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/data-structure/queue/_test_.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+                <state vertical-scroll-proportion="0.65640193">
+                  <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -235,7 +238,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data_structure" />
+              <option name="myItemId" value="data-structure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="queue" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,11 +256,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data_structure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list" />
+              <option name="myItemId" value="data-structure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -274,6 +277,7 @@
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -282,7 +286,7 @@
       <recent name="$PROJECT_DIR$/data_structure/list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Build All">
+  <component name="RunManager" selected="Application.about-c-lang">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="about_c_lang" TARGET_NAME="about_c_lang" CONFIG_NAME="Debug">
       <envs />
       <method />
@@ -290,17 +294,12 @@
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <method />
     </configuration>
-    <configuration default="false" name="about_c_lang" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="about_c_lang" TARGET_NAME="about_c_lang" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="about_c_lang" RUN_TARGET_NAME="about_c_lang">
+    <configuration default="false" name="about-c-lang" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="about-c-lang" RUN_TARGET_NAME="about-c-lang" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="about_c_lang" RUN_TARGET_NAME="about_c_lang" EXPLICIT_BUILD_TARGET_NAME="all">
-      <envs />
-      <method />
-    </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.about_c_lang" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Build All" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.about-c-lang" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -328,7 +327,7 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298647" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2159031" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -359,7 +358,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/linked-list/linked_list.h">
+    <entry file="file://$PROJECT_DIR$/data-structure/linked-list/linked_list.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24311183">
           <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
@@ -375,7 +374,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/linked-list/linked_list.c">
+    <entry file="file://$PROJECT_DIR$/data-structure/linked-list/linked_list.c">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
@@ -385,7 +384,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/list/list.h">
+    <entry file="file://$PROJECT_DIR$/data-structure/list/list.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33225283">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
@@ -401,7 +400,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/list/list.c">
+    <entry file="file://$PROJECT_DIR$/data-structure/list/list.c">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -418,15 +417,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/queue/_test_.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/queue/queue.h">
+    <entry file="file://$PROJECT_DIR$/data-structure/queue/queue.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="18" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="18" />
@@ -444,10 +435,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure/queue/queue.c">
+    <entry file="file://$PROJECT_DIR$/data-structure/queue/queue.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54603857">
-          <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.5105348">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="e#41#60#0" expanded="true" />
             <element signature="e#218#314#0" expanded="false" />
@@ -457,15 +448,22 @@
             <element signature="e#566#629#0" expanded="false" />
             <element signature="e#700#1282#0" expanded="false" />
             <element signature="e#1288#1605#0" expanded="false" />
-            <element signature="e#1607#1728#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27301928">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/queue/_test_.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65640193">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding />
         </state>
       </provider>
