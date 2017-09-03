@@ -44,8 +44,7 @@ int main(void){
     current = head;
     // output content
     while (current != NULL){
-        printf("Movie: %s Rating: %d\n",
-               current->title, current->rating);
+        printf("Movie: %s Rating: %d\n", current->title, current->rating);
         current = current->next;
     }
 

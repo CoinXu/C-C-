@@ -2,7 +2,6 @@
 // Created by coinxu on 12/12/15.
 //
 
-#include "guess.h"
 #include "stdio.h"
 
 int main(void) {

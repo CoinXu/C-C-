@@ -59,22 +59,22 @@ bool AddItem(Item item, List *list) {
 }
 
 void Traverse(const List *list, void(*fn)(Item item)) {
-    Node * node = * list;
-    while (node != NULL){
+    Node *node = *list;
+    while (node != NULL) {
         (*fn)(node->item);
         node = node->next;
     }
 }
 
-void EmptyTheList(List * list){
-    Node * psave;
-    while (*list != NULL){
+void EmptyTheList(List *list) {
+    Node *psave;
+    while (*list != NULL) {
         psave = (*list)->next;
         free(*list);
         *list = psave;
     }
 }
 
-void CopyToNode(Item item, Node * node){
+void CopyToNode(Item item, Node *node) {
     node->item = item;
 }
