@@ -10,9 +10,9 @@ set(
 #        data_structure/list/list.c
 #        data_structure/list/list.h
 #        syntax/io_char/guess.c
-        queue/queue.c
-        queue/queue.h
-        queue/_test_.c
+        data_structure/queue/queue.c
+        data_structure/queue/queue.h
+        data_structure/queue/_test_.c
 )
 
 add_executable(about_c_lang ${SOURCE_FILES})

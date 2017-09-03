@@ -3,9 +3,9 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/queue/_test_.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/queue/queue.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/queue/queue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data_structure/queue/_test_.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data_structure/queue/queue.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/data_structure/queue/queue.h" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
