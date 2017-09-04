@@ -13,6 +13,6 @@ set(
         data-structure/queue/queue.c
         data-structure/queue/queue.h
         data-structure/queue/_test_.c
-)
+	data-structure/tree/tree.c data-structure/tree/tree.h)
 
 add_executable(about-c-lang ${SOURCE_FILES})
