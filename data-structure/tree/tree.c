@@ -142,7 +142,7 @@ bool tree_is_full(const Tree *tree) {
  * 是否存在于树中
  */
 bool in_tree(const Item *item, const Tree *tree) {
-    return seek_item(item, tree).child == NULL;
+    return seek_item(item, tree).child != NULL;
 }
 
 /**
