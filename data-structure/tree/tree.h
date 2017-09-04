@@ -48,12 +48,12 @@ int tree_item_count(const Tree *tree);
 /**
  * add item
  */
-int tree_add(const Item *item, const Tree *tree);
+int tree_add(const Item *item, Tree *tree);
 
 /**
  * in tree
  */
-int in_tree(const Item *item, const Tree *tree);
+bool in_tree(const Item *item, const Tree *tree);
 
 /**
  * delete item

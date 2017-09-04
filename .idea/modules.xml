@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/about-c-lang.iml" filepath="$PROJECT_DIR$/.idea/about-c-lang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/c-lang.iml" filepath="$PROJECT_DIR$/.idea/c-lang.iml" />
     </modules>
   </component>
 </project>
