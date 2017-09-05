@@ -50,7 +50,7 @@ static bool to_right(const Item *base, const Item *comp) {
  */
 static Node *make_node(const Item *item) {
     Node *node;
-    node = (Node *) malloc(sizeof(Node);
+    node = (Node *) malloc(sizeof(Node));
 
     if (node != NULL) {
         node->item = *item;
