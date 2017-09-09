@@ -5,14 +5,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int *paf(void);
-
 int *paf(void) {
     int *arr;
     arr = calloc(2, sizeof(int));
     // TODO
     // free arr at outer
     return arr;
+}
+
+int ** bar(void) {
+    int **a;
+    a = calloc(2, sizeof(int));
+    int b = a[0][1];
+    return a;
 }
 
 
