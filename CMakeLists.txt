@@ -12,9 +12,10 @@ set(SOURCE_FILES
 #    data-structure/queue/queue.c
 #    data-structure/queue/queue.hSS
 #        syntax/io_char/guess.c
-        data-structure/tree/tree.c
-        data-structure/tree/tree.h
-        data-structure/tree/_test_.c
+#        data-structure/tree/tree.c
+#        data-structure/tree/tree.h
+#        data-structure/tree/_test_.c
+        syntax/point/declare.c
 )
 
 add_executable(c_lang ${SOURCE_FILES})
